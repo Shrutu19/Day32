@@ -1,0 +1,36 @@
+Day 32 coding Statement : Write a Program to Remove vowels from a string
+
+Description
+
+Get a string as the input from the user and then remove all the vowel letters from the string and give the output.
+
+Input
+
+remove
+
+Output
+
+rmv
+
+
+
+
+
+Code:
+string = input("Enter a string: ")
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+result = ""
+
+for i in range(len(string)):
+    if string[i] not in vowels:
+        result = result + string[i]
+
+print("After removing Vowels: ", result)
+
+
+
+
+Output:
+Enter a string: remove
+
+After removing Vowels:  rmv
